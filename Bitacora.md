@@ -437,40 +437,6 @@ Cada integrante documentará diariamente: - Actividad realizada\
 | Presentación final                     | R      | R      | R   | R    |
 | Organización del repositorio GitHub    | C      | I      | I   | R    |
 
----
-
-## Cuadro de Entregables por Integrante
-
-### **Camila Rivera**
-
-* Gráfico de líneas (tendencia temporal).
-* Gráfico de dispersión o matriz de correlación.
-* Limpieza y transformación de fechas (FECHA HECHO → AÑO, MES_AÑO).
-* Redacción de conclusiones relacionadas con series de tiempo.
-* Sección correspondiente del informe y bitácora personal.
-
-### **Andrés Padilla**
-
-* Gráfico de barras por tipo de delito.
-* Mapa coroplético por departamento o municipio.
-* Verificación de consistencia geográfica en el dataset.
-* Aportes al análisis descriptivo geográfico del informe.
-* Documentación en bitácora.
-
-### **Alejandro Soa**
-
-* Gráfico de pastel sobre los Top 5 departamentos.
-* Análisis descriptivo regional.
-* Conclusiones del EDA geográfico.
-* Sección correspondiente de la bitácora.
-
-### **Nick Duran**
-
-* Definición del stack tecnológico (Colab, Drive, Python, librerías).
-* Gráfico de barras apiladas (departamento vs tipo de delito).
-* Gestión y configuración del entorno técnico.
-* Garantizar reproducibilidad del notebook completo.
-* Documentación técnica en bitácora y apoyo en integración final.
 
 ------------------------------------------------------
 
