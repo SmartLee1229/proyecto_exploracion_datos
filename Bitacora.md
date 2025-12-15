@@ -44,9 +44,10 @@ El equipo está conformado por:
 
 El objetivo es comprender cómo evolucionan los delitos informáticos, su
 Distribución por regiones y cómo cambian en el tiempo.
+
 ## Preguntas problemáticas 
 
-| Compañero | Gráfica Asignada | Pregunta Problemático |
+| Compañero | Gráfica Asignada | Pregunta De Cada Grafica|
 | :--- | :--- | :--- |
 | Andrés Padilla | Gráfico de Barras | ¿Qué tipos de delitos informáticos se presentan con mayor frecuencia según la descripción de la conducta registrada? |
 | Camila Rivera | Gráfico de Líneas | ¿Cómo ha evolucionado el número total de delitos informáticos a lo largo de los años según la fecha del hecho? |
@@ -61,10 +62,16 @@ Distribución por regiones y cómo cambian en el tiempo.
 
 ## 3.2 Comprensión de los Datos
 
-El dataset contiene: - **FECHA HECHO** - **DEPARTAMENTO / MUNICIPIO** -
-**DESCRIPCION CONDUCTA** - **CANTIDAD**
+El dataset contiene: 
 
-Actividades: - Verificar valores faltantes
+- **FECHA HECHO**
+- **DEPARTAMENTO / MUNICIPIO**
+- **DESCRIPCION CONDUCTA**
+- **CANTIDAD**
+
+Actividades: 
+
+- Verificar valores faltantes
 - Identificar inconsistencias en nombres de municipios/departamentos
 - Revisar formatos de fechas
 - Realizar primeras estadísticas descriptivas
@@ -74,7 +81,9 @@ Actividades: - Verificar valores faltantes
 
 ## 3.3 Preparación de los Datos
 
-Incluye: - Conversión de fechas a formato datetime
+Incluye: 
+
+- Conversión de fechas a formato datetime
 - Generación de columnas derivadas: **AÑO**, **MES**, **MES_AÑO**
 - Limpieza de texto en campos categóricos
 - Agrupaciones y sumatorias por variables clave
@@ -113,7 +122,9 @@ Cada integrante desarrolla una visualización estadística:
 
 ## 3.5 Evaluación
 
-Incluye: - Validación visual de gráficos
+Incluye: 
+
+- Validación visual de gráficos
 - Interpretación estadística
 - Consistencia entre resultados y preguntas del negocio
 - Cruce entre variables para detectar correlaciones útiles
@@ -122,15 +133,18 @@ Incluye: - Validación visual de gráficos
 
 ## 3.6 Despliegue / Comunicación
 
-Entregables obligatorios: - Informe PDF documentado (ASUM‑DM completo) -
-Notebook en Google Colab - Repositorio GitHub con código, datos y
-documentación - Presentación tipo elevator pitch
+Entregables obligatorios: 
+
+- Informe PDF documentado (ASUM‑DM completo)
+- Notebook en Google Colab
+- Repositorio GitHub con código, datos y documentación
+- Presentación tipo elevator pitch
 
 Entregable opcional: - Dashboard interactivo (Power BI o equivalente)
 
 ------------------------------------------------------------------------
 
-# Plan de Trabajo del Proyecto Integrado de Análisis, Modelado y Optimización de Datos
+# 4. Plan de Trabajo del Proyecto Integrado de Análisis, Modelado y Optimización de Datos
 
 ## Enfoque por Entregables, Roles y Mecanismos de Control de Calidad
 
@@ -138,7 +152,7 @@ Este documento presenta un plan de trabajo formal, estructurado y orientado a en
 
 ---
 
-## 1. Selección y Justificación del Dataset
+## 4.1 Selección y Justificación del Dataset
 
 ### Objetivo
 
@@ -161,7 +175,7 @@ Identificar, evaluar y seleccionar un conjunto de datos pertinente para el enfoq
 
 ---
 
-## 2. Exploración de Datos (EDA) y Conclusiones Iniciales
+## 4.2 Exploración de Datos (EDA) y Conclusiones Iniciales
 
 ### Objetivo
 
@@ -186,7 +200,7 @@ Examinar las características internas del dataset para identificar su estructur
 
 ---
 
-## 3. Preparación, Transformación e Ingeniería de Datos
+## 4.3 Preparación, Transformación e Ingeniería de Datos
 
 ### Objetivo
 
@@ -210,7 +224,7 @@ Optimizar los datos para el modelado mediante técnicas de limpieza, transformac
 
 ---
 
-## 4. Modelado Inicial
+## 4.4 Modelado Inicial
 
 ### Objetivo
 
@@ -235,7 +249,7 @@ Construir una primera versión del modelo seleccionado para establecer un punto 
 
 ---
 
-## 5. Optimización del Modelo
+## 4.5 Optimización del Modelo
 
 ### Objetivo
 
@@ -260,7 +274,7 @@ Mejorar el desempeño del modelo base mediante ajustes justificados y técnicame
 
 ---
 
-## 6. Informe Técnico Final (PDF)
+## 4.6 Informe Técnico Final (PDF)
 
 ### Objetivo
 
@@ -284,7 +298,7 @@ Compilar un documento formal, claro y profesional que refleje todas las fases de
 
 ---
 
-## 7. Notebook Final
+## 4.7 Notebook Final
 
 ### Objetivo
 
@@ -305,7 +319,7 @@ Presentar un cuaderno completamente funcional, limpio y replicable que documente
 
 ---
 
-## 8. Presentación Final (Elevator Pitch)
+## 4.8 Presentación Final (Elevator Pitch)
 
 ### Objetivo
 
@@ -329,7 +343,7 @@ Comunicar de manera breve, impactante y profesional el valor del proyecto, las d
 
 ---
 
-## 9. (Opcional) Dashboard Analítico para Recuperación de Nota
+## 4.9 (Opcional) Dashboard Analítico para Recuperación de Nota
 
 ### Objetivo
 
@@ -352,7 +366,9 @@ Complementar el proyecto con una visualización interactiva que fortalezca la co
 
 # 5. Bitácora del Equipo
 
-Cada integrante documentará diariamente: - Actividad realizada.
+Cada integrante documentará diariamente: 
+
+- Actividad realizada.
 - Código implementado.
 - Hallazgos relevantes.
 - Problemas encontrados y soluciones.
@@ -364,8 +380,7 @@ Cada integrante documentará diariamente: - Actividad realizada.
 
 -   El hurto por medios informáticos es el delito dominante.
 -   Bogotá concentra la mayor cantidad de casos.
--   Crecimiento notorio en delitos de acceso abusivo y violación de
-    datos.
+-   Crecimiento notorio en delitos de acceso abusivo y violación de datos. 
 -   Patrones fuertes en phishing y suplantación digital.
 -   Impacto económico significativo por transferencias no autorizadas.
 -   Tendencia creciente de ciberdelitos en la última década.
