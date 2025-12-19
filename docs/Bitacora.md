@@ -377,27 +377,6 @@ Cada integrante documentará diariamente: - Actividad realizada.
 -   Tendencia creciente de ciberdelitos en la última década.
 
 ------------------------------------------------------------------------
-## Diagrama RACI (Roles y Responsabilidades)
-
-**Leyenda:**
-
-* **R** = Responsable directo
-* **A** = Aprueba o valida
-* **C** = Consultado
-* **I** = Informado
-
-| Actividad / Integrante                 | Camila | Andrés | Soa | Nick |
-| -------------------------------------- | ------ | ------ | --- | ---- |
-| Selección del dataset                  | C      | C      | C   | R    |
-| Limpieza de datos (fechas y geografía) | R      | R      | I   | C    |
-| Exploración de datos (EDA)             | R      | R      | R   | C    |
-| Visualizaciones                        | R      | R      | R   | R    |
-| Construcción del notebook              | C      | C      | I   | R    |
-| Documentación final (PDF y README)     | R      | C      | C   | C    |
-| Presentación final                     | R      | R      | R   | R    |
-| Organización del repositorio GitHub    | C      | I      | I   | R    |
-
----
 
 ## Cuadro de Entregables por Integrante
 
@@ -459,17 +438,17 @@ Cada integrante documentará diariamente: - Actividad realizada.
     /Proyecto-Delitos-Informaticos
     │
     ├── data/
-    │   └── delitos_informaticos.csv
+    │   └── delitos_informaticos.csv(url)
     │
     ├── notebooks/
-    │   └── analisis_delitos.ipynb
+    │   └── Proyecto_de_Datos.ipynb
     │
     ├── docs/
-    │   ├── informe_ASUM_DM.pdf
-    │   └── plan_trabajo.md
+    │   ├── INFORME FINAL DEL PROYECTO.pdf
+    │   └── Bitacora.md
     │
     ├── presentacion/
-    │   └── elevator_pitch.pdf
+    │   └── ANALISIS-DE-DELITOS-INFORMATICOS.pdf
     │
     └── README.md
 
